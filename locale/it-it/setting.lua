@@ -23,7 +23,7 @@ The following example shows that 'include' is treated as' require '.
 ```
 ]]
 config.runtime.unicodeName        =
-"Permetti caratteri Unicode nei nomi."
+"Permetti i caratteri Unicode nei nomi."
 config.runtime.nonstandardSymbol  =
 "Supporta simboli non-standard. Assicurati che il tuo ambiente di runtime supporti questi simboli." 
 config.runtime.plugin             =
@@ -37,8 +37,8 @@ config.runtime.builtin            =
 Adjust the enabled state of the built-in library. You can disable (or redefine) the non-existent library according to the actual runtime environment.
 
 * `default`: Indicates that the library will be enabled or disabled according to the runtime version
-* `enable`: always enable
-* `disable`: always disable
+* `enable`: abilita sempre
+* `disable`: disabilita sempre
 ]]
 config.runtime.meta               =
 'Formato del nome della cartella dei file di metadati.'
@@ -235,9 +235,9 @@ config.hint.setType                      =
 config.hint.paramName                    =
 'Show hints of parameter name at the function call.'
 config.hint.paramName.All                =
-'All types of parameters are shown.'
+'Tutti i tipi di parametri sono mostrati.'
 config.hint.paramName.Literal            =
-'Only literal type parameters are shown.'
+'Solo i parametri di tipo literal sono mostrati.'
 config.hint.paramName.Disable            =
 'Disabilita suggerimenti sui parametri.'
 config.hint.arrayIndex                   =
@@ -420,7 +420,7 @@ config.diagnostics['unreachable-code']      =
 config.diagnostics['global-element']       =
 'Abilita la diagnostica per avvertire sugli elementi globali.'
 config.typeFormat.config                    =
-'Confgiura il comportamento della formattazione mentre scrivi codice Lua.'
+'Configura il comportamento della formattazione mentre scrivi codice Lua.'
 config.typeFormat.config.auto_complete_end  =
 'Controlla se la keyword `end` viene completata automaticamente nelle posizioni adeguate.'
 config.typeFormat.config.auto_complete_table_sep =

@@ -1,79 +1,79 @@
 DIAG_LINE_ONLY_SPACE    =
-'Line with spaces only.'
+'Linea solamente con spazi.'
 DIAG_LINE_POST_SPACE    =
-'Line with trailing space.'
+'Linea con spazio a seguire.'
 DIAG_UNUSED_LOCAL       =
-'Unused local `{}`.'
+'Variabile locale `{}` non usata.'
 DIAG_UNDEF_GLOBAL       =
-'Undefined global `{}`.'
+'Variabile globale `{}` non definita.'
 DIAG_UNDEF_FIELD        =
-'Undefined field `{}`.'
+'Campo `{}` non definito.'
 DIAG_UNDEF_ENV_CHILD    =
-'Undefined variable `{}` (overloaded `_ENV` ).'
+'Variabile `{}` non definita (overloaded `_ENV` ).'
 DIAG_UNDEF_FENV_CHILD   =
-'Undefined variable `{}` (inside module).'
+'Variable `{}` non definita (all\'interno del modulo).'
 DIAG_GLOBAL_IN_NIL_ENV  =
-'Invalid global (`_ENV` is `nil`).'
+'Variabile globale non valida (`_ENV` è `nil`).'
 DIAG_GLOBAL_IN_NIL_FENV =
-'Invalid global (module environment is `nil`).'
+'Invalid global (module environment è `nil`).'
 DIAG_UNUSED_LABEL       =
-'Unused label `{}`.'
+'Etichetta `{}` non utilizzata.'
 DIAG_UNUSED_FUNCTION    =
-'Unused functions.'
+'Funzioni non utilizzate.'
 DIAG_UNUSED_VARARG      =
-'Unused vararg.'
+'Vararg non utilizzata.'
 DIAG_REDEFINED_LOCAL    =
-'Redefined local `{}`.'
+'Variabile locale `{}` ridefinita.'
 DIAG_DUPLICATE_INDEX    =
-'Duplicate index `{}`.'
+'Indice `{}` duplicato.'
 DIAG_DUPLICATE_METHOD   =
-'Duplicate method `{}`.'
+'Metodo `{}` duplicato.'
 DIAG_PREVIOUS_CALL      =
-'Will be interpreted as `{}{}`. It may be necessary to add a `,`.'
+'Verrà interpretato come `{}{}`. Potrebbe essere necessario aggiungere una `,`.'
 DIAG_PREFIELD_CALL      =
-'Will be interpreted as `{}{}`. It may be necessary to add a `,` or `;`.'
+'Verrà interpretato come `{}{}`. Potrebbe essere necessario aggiungere una `,` o un `;`.'
 DIAG_OVER_MAX_ARGS      =
-'This function expects a maximum of {:d} argument(s) but instead it is receiving {:d}.'
+'La funzione si aspetta un massimo di {:d} argomento/i, ma in input ne sono dati {:d}.'
 DIAG_MISS_ARGS          =
-'This function requires {:d} argument(s) but instead it is receiving {:d}.'
+'La funzione richiede {:d} argomento/i ma in input ne sono dati {:d}.'
 DIAG_OVER_MAX_VALUES    =
-'Only has {} variables, but you set {} values.'
+'Ha solamente {} variabili, ma tu hai impostato {} valori.'
 DIAG_AMBIGUITY_1        =
 'Compute `{}` first. You may need to add brackets.'
 DIAG_LOWERCASE_GLOBAL   =
-'Global variable in lowercase initial, Did you miss `local` or misspell it?'
+'Global variable in lowercase initial. Ti sei dimenticato di scrivere `local` o lo hai scritto male?'
 DIAG_EMPTY_BLOCK        =
-'Empty block.'
+'Blocco vuoto.'
 DIAG_DIAGNOSTICS        =
-'Lua Diagnostics.'
+'Diagnostiche Lua.'
 DIAG_SYNTAX_CHECK       =
-'Lua Syntax Check.'
+'Controllo della sintassi Lua.'
 DIAG_NEED_VERSION       =
-'Supported in {}, current is {}.'
+'Supportata in {}, la corrente è {}.'
 DIAG_DEFINED_VERSION    =
-'Defined in {}, current is {}.'
+'Definita in {}, la corrente è {}.'
 DIAG_DEFINED_CUSTOM     =
-'Defined in {}.'
+'Definita in {}.'
 DIAG_DUPLICATE_CLASS    =
-'Duplicate Class `{}`.'
+'Classe `{}` duplicata.'
 DIAG_UNDEFINED_CLASS    =
-'Undefined Class `{}`.'
+'Classe `{}` non definita.'
 DIAG_CYCLIC_EXTENDS     =
-'Cyclic extends.'
+'Estensione ciclica.'
 DIAG_INEXISTENT_PARAM   =
-'Inexistent param.'
+'Parametro inesistente.'
 DIAG_DUPLICATE_PARAM    =
-'Duplicate param.'
+'Parametro duplicato.'
 DIAG_NEED_CLASS         =
-'Class needs to be defined first.'
+'La classe deve essere prima dichiarata.'
 DIAG_DUPLICATE_SET_FIELD=
-'Duplicate field `{}`.'
+'Campo `{}` duplicato.'
 DIAG_SET_CONST          =
-'Assignment to const variable.'
+'Assegnamento ad una variabile costante.'
 DIAG_SET_FOR_STATE      =
-'Assignment to for-state variable.'
+'Assegnamento ad una variabile dello stato del for.'
 DIAG_CODE_AFTER_BREAK   =
-'Unable to execute code after `break`.'
+'Impossibile eseguire il codice dopo il `break`.'
 DIAG_UNBALANCED_ASSIGNMENTS =
 'The value is assigned as `nil` because the number of values is not enough. In Lua, `x, y = 1 ` is equivalent to `x, y = 1, nil` .'
 DIAG_REQUIRE_LIKE       =
@@ -81,25 +81,25 @@ DIAG_REQUIRE_LIKE       =
 DIAG_COSE_NON_OBJECT    =
 'Cannot close a value of this type. (Unless set `__close` meta method)'
 DIAG_COUNT_DOWN_LOOP    =
-'Do you mean `{}` ?'
+'Intendi `{}` ?'
 DIAG_UNKNOWN            =
-'Can not infer type.'
+'Non è possibile dedurre il tipo.'
 DIAG_DEPRECATED         =
-'Deprecated.'
+'Deprecato.'
 DIAG_DIFFERENT_REQUIRES =
-'The same file is required with different names.'
+'Lo stesso file è richiesto con nomi diversi.'
 DIAG_REDUNDANT_RETURN   =
-'Redundant return.'
+'Return ridondante.'
 DIAG_AWAIT_IN_SYNC      =
-'Async function can only be called in async function.'
+'Le funzioni asincrone possono essere invocate solamente da funzioni asincrone.'
 DIAG_NOT_YIELDABLE      =
 'The {}th parameter of this function was not marked as yieldable, but an async function was passed in. (Use `---@param name async fun()` to mark as yieldable)'
 DIAG_DISCARD_RETURNS    =
-'The return values of this function cannot be discarded.'
+'Il valore restituito dalla funzione non può essere ignorato.'
 DIAG_NEED_CHECK_NIL     =
-'Need check nil.'
+'Controllo sul nil necessario.'
 DIAG_CIRCLE_DOC_CLASS                 =
-'Circularly inherited classes.'
+'Classi ereditate circolarmente.'
 DIAG_DOC_FIELD_NO_CLASS               =
 'The field must be defined after the class.'
 DIAG_DUPLICATE_DOC_ALIAS              =
@@ -107,13 +107,13 @@ DIAG_DUPLICATE_DOC_ALIAS              =
 DIAG_DUPLICATE_DOC_FIELD              =
 'Duplicate defined fields `{}`.'
 DIAG_DUPLICATE_DOC_PARAM              =
-'Duplicate params `{}`.'
+'Parametri `{}` duplicati.'
 DIAG_UNDEFINED_DOC_CLASS              =
-'Undefined class `{}`.'
+'Class `{}` non definita.'
 DIAG_UNDEFINED_DOC_NAME               =
 'Undefined type or alias `{}`.'
 DIAG_UNDEFINED_DOC_PARAM              =
-'Undefined param `{}`.'
+'Parametro `{}` non definito.'
 DIAG_MISSING_GLOBAL_DOC_COMMENT       =
 'Missing comment for global function `{}`.'
 DIAG_MISSING_GLOBAL_DOC_PARAM         =
@@ -157,9 +157,9 @@ DIAG_MISSING_RETURN                   =
 DIAG_RETURN_TYPE_MISMATCH             =
 'Annotations specify that return value #{index} has a type of `{def}`, returning value of type `{ref}` here instead.'
 DIAG_UNKNOWN_OPERATOR                 =
-'Unknown operator `{}`.'
+'Operatore `{}` sconosciuto.'
 DIAG_UNREACHABLE_CODE                 =
-'Unreachable code.'
+'Codice non raggiungibile.'
 DIAG_INVISIBLE_PRIVATE                =
 'Field `{field}` is private, it can only be accessed in class `{class}`.'
 DIAG_INVISIBLE_PROTECTED              =
@@ -167,7 +167,7 @@ DIAG_INVISIBLE_PROTECTED              =
 DIAG_INVISIBLE_PACKAGE                =
 'Field `{field}` can only be accessed in same file `{uri}`.'
 DIAG_GLOBAL_ELEMENT                   =
-'Element is global.'
+'L\'elemento è globale.'
 DIAG_MISSING_FIELDS                   =
 'Missing required fields in type `{1}`: {2}'
 DIAG_INJECT_FIELD                     =
@@ -180,7 +180,7 @@ DIAG_INJECT_FIELD_FIX_TABLE           =
 MWS_NOT_SUPPORT         =
 '{} does not support multi workspace for now, I may need to restart to support the new workspace ...'
 MWS_RESTART             =
-'Restart'
+'Riavvia'
 MWS_NOT_COMPLETE        =
 'Workspace is not complete yet. You may try again later...'
 MWS_COMPLETE            =
@@ -188,18 +188,18 @@ MWS_COMPLETE            =
 MWS_MAX_PRELOAD         =
 'Preloaded files has reached the upper limit ({}), you need to manually open the files that need to be loaded.'
 MWS_UCONFIG_FAILED      =
-'Saving user setting failed.'
+'Il salvataggio delle impostazioni dell\'utente è fallito.'
 MWS_UCONFIG_UPDATED     =
-'User setting updated.'
+'Impostazioni dell\'utente aggiornate.'
 MWS_WCONFIG_UPDATED     =
-'Workspace setting updated.'
+'Impostazioni del worksapce aggiornate.'
 
 WORKSPACE_SKIP_LARGE_FILE =
-'Too large file: {} skipped. The currently set size limit is: {} KB, and the file size is: {} KB.'
+'File: {}, troppo largo; ignorato. Il limite corrente è: {} KB, e la dimensione del file è di: {} KB.'
 WORKSPACE_LOADING         =
-'Loading workspace'
+'Caricando la workspace'
 WORKSPACE_DIAGNOSTIC      =
-'Diagnosing workspace'
+'Diagnostica la workspace'
 WORKSPACE_SKIP_HUGE_FILE  =
 'For performance reasons, the parsing of this file has been stopped: {}'
 WORKSPACE_NOT_ALLOWED     =
@@ -208,21 +208,21 @@ WORKSPACE_SCAN_TOO_MUCH   =
 'More than {} files have been scanned. The current scanned directory is `{}`. Please see the [FAQ](https://luals.github.io/wiki/faq/#how-can-i-improve-startup-speeds) to see how you can include fewer files. It is also possible that your [configuration is incorrect](https://luals.github.io/wiki/faq#why-is-the-server-scanning-the-wrong-folder).'
 
 PARSER_CRASH            =
-'Parser crashed! Last words:{}'
+'Il parser si è arrestato! Ultime parole: {}'
 PARSER_UNKNOWN          =
-'Unknown syntax error...'
+'Errore di sintassi sconosciuto..'
 PARSER_MISS_NAME        =
 '<name> expected.'
 PARSER_UNKNOWN_SYMBOL   =
-'Unexpected symbol `{symbol}`.'
+'Simbolo `{symbol}` inaspettato.'
 PARSER_MISS_SYMBOL      =
 'Missed symbol `{symbol}`.'
 PARSER_MISS_ESC_X       =
-'Should be 2 hexadecimal digits.'
+'Dovrebbe essere due cifre esadecimali.'
 PARSER_UTF8_SMALL       =
-'At least 1 hexadecimal digit.'
+'Almeno 1 cifra esadecimale.'
 PARSER_UTF8_MAX         =
-'Should be between {min} and {max} .'
+'Dovrebbe essere tra {min} e {max} .'
 PARSER_ERR_ESC          =
 'Invalid escape sequence.'
 PARSER_MUST_X16         =
@@ -236,13 +236,13 @@ PARSER_MISS_FIELD       =
 PARSER_MISS_METHOD      =
 '<method> expected.'
 PARSER_ARGS_AFTER_DOTS  =
-'`...` should be the last arg.'
+'`...` dovrebbe essere l\'ultimo argomento.'
 PARSER_KEYWORD          =
-'<keyword> cannot be used as name.'
+'La keyword <keyword> non può essere usata come un nome.'
 PARSER_EXP_IN_ACTION    =
-'Unexpected <exp> .'
+'Espressione <exp> inaspettata.'
 PARSER_BREAK_OUTSIDE    =
-'<break> not inside a loop.'
+'<break> non all\'interno di un ciclo.'
 PARSER_MALFORMED_NUMBER =
 'Malformed number.'
 PARSER_ACTION_AFTER_RETURN =
@@ -260,7 +260,7 @@ PARSER_UNEXPECT_DOTS    =
 PARSER_UNEXPECT_SYMBOL  =
 'Unexpected symbol `{symbol}` .'
 PARSER_UNKNOWN_TAG      =
-'Unknown attribute.'
+'Attributo sconosciuto.'
 PARSER_MULTI_TAG        =
 'Does not support multi attributes.'
 PARSER_UNEXPECT_LFUNC_NAME =
@@ -294,9 +294,9 @@ PARSER_SET_CONST         =
 PARSER_UNICODE_NAME      =
 'Contains Unicode characters.'
 PARSER_ERR_NONSTANDARD_SYMBOL =
-'Lua should use `{symbol}` .'
+'Lua dovrebbe usare il simbolo `{symbol}` .'
 PARSER_MISS_SPACE_BETWEEN =
-'Spaces must be left between symbols.'
+'Gli spazi devono essere lasciati tra simboli'
 PARSER_INDEX_IN_FUNC_NAME =
 'The `[name]` form cannot be used in the name of a named function.'
 PARSER_UNKNOWN_ATTRIBUTE  =
@@ -304,25 +304,25 @@ PARSER_UNKNOWN_ATTRIBUTE  =
 PARSER_AMBIGUOUS_SYNTAX   =
 'In Lua 5.1, the left brackets called by the function must be in the same line as the function.'
 PARSER_NEED_PAREN         =
-'Need to add a pair of parentheses.'
+'È necessario aggiungere una coppia di parentesi.'
 PARSER_NESTING_LONG_MARK  =
 'Nesting of `[[...]]` is not allowed in Lua 5.1 .'
 PARSER_LOCAL_LIMIT        =
 'Only 200 active local variables and upvalues can be existed at the same time.'
 PARSER_LUADOC_MISS_CLASS_NAME           =
-'<class name> expected.'
+'<class name> atteso.'
 PARSER_LUADOC_MISS_EXTENDS_SYMBOL       =
-'`:` expected.'
+'`:` atteso.'
 PARSER_LUADOC_MISS_CLASS_EXTENDS_NAME   =
-'<class extends name> expected.'
+'<class extends name> atteso.'
 PARSER_LUADOC_MISS_SYMBOL               =
-'`{symbol}` expected.'
+'`{symbol}` atteso.'
 PARSER_LUADOC_MISS_ARG_NAME             =
-'<arg name> expected.'
+'<arg name> atteso.'
 PARSER_LUADOC_MISS_TYPE_NAME            =
-'<type name> expected.'
+'<type name> atteso.'
 PARSER_LUADOC_MISS_ALIAS_NAME           =
-'<alias name> expected.'
+'<alias name> atteso.'
 PARSER_LUADOC_MISS_ALIAS_EXTENDS        =
 '<alias extends> expected.'
 PARSER_LUADOC_MISS_PARAM_NAME           =
@@ -354,7 +354,7 @@ SYMBOL_ANONYMOUS        =
 '<Anonymous>'
 
 HOVER_VIEW_DOCUMENTS    =
-'View documents'
+'Vedi documenti'
 HOVER_DOCUMENT_LUA51    =
 'http://www.lua.org/manual/5.1/manual.html#{}'
 HOVER_DOCUMENT_LUA52    =
@@ -388,7 +388,7 @@ HOVER_MULTI_PROTO_NOT_FUNC =
 HOVER_USE_LUA_PATH      =
 '(Search path: `{}`)'
 HOVER_EXTENDS           =
-'Expand to {}'
+'Espandi a {}'
 HOVER_TABLE_TIME_UP     =
 'Partial type inference has been disabled for performance reasons.'
 HOVER_WS_LOADING        =
@@ -403,103 +403,103 @@ ACTION_MARK_GLOBAL      =
 ACTION_REMOVE_SPACE     =
 'Clear all postemptive spaces.'
 ACTION_ADD_SEMICOLON    =
-'Add `;` .'
+'Aggiungi `;` .'
 ACTION_ADD_BRACKETS     =
-'Add brackets.'
+'Aggiungi parentesi graffe.'
 ACTION_RUNTIME_VERSION  =
-'Change runtime version to {} .'
+'Cambia la versione del runtime a {} .'
 ACTION_OPEN_LIBRARY     =
 'Load globals from {} .'
 ACTION_ADD_DO_END       =
-'Add `do ... end` .'
+'Aggiungi `do ... end` .'
 ACTION_FIX_LCOMMENT_END =
 'Modify to the correct multi-line annotations closing symbol.'
 ACTION_ADD_LCOMMENT_END =
-'Close multi-line annotations.'
+'Chiudi annotazioni multi-line.'
 ACTION_FIX_C_LONG_COMMENT =
 'Modify to Lua multi-line annotations format.'
 ACTION_FIX_LSTRING_END  =
 'Modify to the correct long string closing symbol.'
 ACTION_ADD_LSTRING_END  =
-'Close long string.'
+'Chiudi stringa lunga.'
 ACTION_FIX_ASSIGN_AS_EQ =
-'Modify to `=` .'
+'Modifica a `=` .'
 ACTION_FIX_EQ_AS_ASSIGN =
-'Modify to `==` .'
+'Modifica a `==` .'
 ACTION_FIX_UEQ          =
-'Modify to `~=` .'
+'Modifica a `~=` .'
 ACTION_FIX_THEN_AS_DO   =
-'Modify to `then` .'
+'Modifica a `then` .'
 ACTION_FIX_DO_AS_THEN   =
-'Modify to `do` .'
+'Modifica a `do` .'
 ACTION_ADD_END          =
-'Add `end` (infer the addition location ny indentations).'
+'Aggiungi un `end` (infer the addition location ny indentations).'
 ACTION_FIX_COMMENT_PREFIX =
-'Modify to `--` .'
+'Modifica a `--` .'
 ACTION_FIX_NONSTANDARD_SYMBOL =
-'Modify to `{symbol}` .'
+'Modifica `{symbol}` .'
 ACTION_RUNTIME_UNICODE_NAME =
-'Allow Unicode characters.'
+'Permetti caratteri Unicode.'
 ACTION_SWAP_PARAMS      =
 'Change to parameter {index} of `{node}`'
 ACTION_FIX_INSERT_SPACE =
-'Insert space.'
+'Inserisci uno spazio.'
 ACTION_JSON_TO_LUA      =
-'Convert JSON to Lua'
+'Converti da JSON a Lua'
 ACTION_DISABLE_DIAG_LINE=
 'Disable diagnostics on this line ({}).'
 ACTION_DISABLE_DIAG_FILE=
 'Disable diagnostics in this file ({}).'
 ACTION_MARK_ASYNC       =
-'Mark current function as async.'
+'Segna la funzione corrente come asincrona.'
 ACTION_ADD_DICT         =
 'Add \'{}\' to workspace dict'
 ACTION_FIX_ADD_PAREN    =
-'Add parentheses.'
+'Aggiungi le parentesi.'
 ACTION_AUTOREQUIRE      =
-"Import '{}' as {}"
+"Importa '{}' come {}"
 
 COMMAND_DISABLE_DIAG       =
-'Disable diagnostics'
+'Disabilita diagnostiche.'
 COMMAND_MARK_GLOBAL        =
 'Mark defined global'
 COMMAND_REMOVE_SPACE       =
 'Clear all postemptive spaces'
 COMMAND_ADD_BRACKETS       =
-'Add brackets'
+'Aggiungi parentesi graffe'
 COMMAND_RUNTIME_VERSION    =
-'Change runtime version'
+'Cambia la versione di runtime'
 COMMAND_OPEN_LIBRARY       =
 'Load globals from 3rd library'
 COMMAND_UNICODE_NAME       =
 'Allow Unicode characters.'
 COMMAND_JSON_TO_LUA        =
-'Convert JSON to Lua'
+'Converti da JSON a Lua'
 COMMAND_JSON_TO_LUA_FAILED =
-'Convert JSON to Lua failed: {}'
+'La conversione da JSON a Lua ha fallito: {}'
 COMMAND_ADD_DICT           =
-'Add Word to dictionary'
+'Aggiungi parola al dizionario'
 COMMAND_REFERENCE_COUNT    =
-'{} references'
+'{} reference'
 
 COMPLETION_IMPORT_FROM           =
-'Import from {}'
+'Importa da {}'
 COMPLETION_DISABLE_AUTO_REQUIRE  =
-'Disable auto require'
+'Disabilita require automatico'
 COMPLETION_ASK_AUTO_REQUIRE      =
 'Add the code at the top of the file to require this file?'
 
 DEBUG_MEMORY_LEAK       =
-"{} I'm sorry for the serious memory leak. The language service will be restarted soon."
+"{} Sono dispiaciuto per il memory leak. Il servizio del linguaggio verrà riavviato presto."
 DEBUG_RESTART_NOW       =
-'Restart now'
+'Riavvia adesso'
 
 WINDOW_COMPILING                 =
-'Compiling'
+'Compilando'
 WINDOW_DIAGNOSING                =
-'Diagnosing'
+'Diagnosticando'
 WINDOW_INITIALIZING              =
-'Initializing...'
+'Inizializzando...'
 WINDOW_PROCESSING_HOVER          =
 'Processing hover...'
 WINDOW_PROCESSING_DEFINITION     =
@@ -525,13 +525,13 @@ WINDOW_PROCESSING_HINT           =
 WINDOW_PROCESSING_BUILD_META     =
 'Processing build meta...'
 WINDOW_INCREASE_UPPER_LIMIT      =
-'Increase upper limit'
+'Aumenta il limite superiore'
 WINDOW_CLOSE                     =
-'Close'
+'Chiudi'
 WINDOW_SETTING_WS_DIAGNOSTIC     =
 'You can delay or disable workspace diagnostics in settings'
 WINDOW_DONT_SHOW_AGAIN           =
-"Don't show again"
+"Non mostrare più"
 WINDOW_DELAY_WS_DIAGNOSTIC       =
 'Idle time diagnosis (delay {} seconds)'
 WINDOW_DISABLE_DIAGNOSTIC        =
@@ -539,14 +539,14 @@ WINDOW_DISABLE_DIAGNOSTIC        =
 WINDOW_LUA_STATUS_WORKSPACE      =
 'Workspace   : {}'
 WINDOW_LUA_STATUS_CACHED_FILES   =
-'Cached files: {ast}/{max}'
+'File in cache: {ast}/{max}'
 WINDOW_LUA_STATUS_MEMORY_COUNT   =
-'Memory usage: {mem:.f}M'
+'Utilizzo della memoria: {mem:.f}M'
 WINDOW_LUA_STATUS_TIP            =
 [[
 
-This icon is a cat,
-Not a dog nor a fox!
+Questa icona è un gatto,
+nè un gatto, nè un cane!
              ↓↓↓
 ]]
 WINDOW_LUA_STATUS_DIAGNOSIS_TITLE=
@@ -554,15 +554,15 @@ WINDOW_LUA_STATUS_DIAGNOSIS_TITLE=
 WINDOW_LUA_STATUS_DIAGNOSIS_MSG  =
 'Do you want to perform workspace diagnosis?'
 WINDOW_APPLY_SETTING             =
-'Apply setting'
+'Applica impostazioni'
 WINDOW_CHECK_SEMANTIC            =
 'If you are using the color theme in the market, you may need to modify `editor.semanticHighlighting.enabled` to `true` to make semantic tokens take effect.'
 WINDOW_TELEMETRY_HINT            =
 'Please allow sending anonymous usage data and error reports to help us further improve this extension. Read our privacy policy [here](https://luals.github.io/privacy#language-server) .'
 WINDOW_TELEMETRY_ENABLE          =
-'Allow'
+'Permetti'
 WINDOW_TELEMETRY_DISABLE         =
-'Prohibit'
+'Vieta'
 WINDOW_CLIENT_NOT_SUPPORT_CONFIG =
 'Your client does not support modifying settings from the server side, please manually modify the following settings:'
 WINDOW_LCONFIG_NOT_SUPPORT_CONFIG=
@@ -576,19 +576,19 @@ WINDOW_MANUAL_CONFIG_PROP        =
 WINDOW_APPLY_WHIT_SETTING        =
 'Apply and modify settings'
 WINDOW_APPLY_WHITOUT_SETTING     =
-'Apply but do not modify settings'
+'Applica ma non modificare le impostazioni'
 WINDOW_ASK_APPLY_LIBRARY         =
 'Do you need to configure your work environment as `{}`?'
 WINDOW_SEARCHING_IN_FILES        =
-'Searching in files...'
+'Cercando tra i files...'
 WINDOW_CONFIG_LUA_DEPRECATED     =
-'`config.lua` is deprecated, please use `config.json` instead.'
+'`config.lua` è deprecato, per favore usa `config.json`.'
 WINDOW_CONVERT_CONFIG_LUA        =
-'Convert to `config.json`'
+'Converti a `config.json`'
 WINDOW_MODIFY_REQUIRE_PATH       =
 'Do you want to modify the require path?'
 WINDOW_MODIFY_REQUIRE_OK         =
-'Modify'
+'Modifica'
 
 CONFIG_LOAD_FAILED               =
 'Unable to read the settings file: {}'
@@ -643,13 +643,13 @@ CLI_CHECK_ERROR_URI =
 CLI_CHECK_ERROR_LEVEL =
 'Checklevel must be one of: {}'
 CLI_CHECK_INITING =
-'Initializing ...'
+'Inizializzando ...'
 CLI_CHECK_SUCCESS =
 'Diagnosis completed, no problems found'
 CLI_CHECK_RESULTS =
 'Diagnosis complete, {} problems found, see {}'
 CLI_DOC_INITING   =
-'Loading documents ...'
+'Caricando i documenti ...'
 CLI_DOC_DONE      =
 [[
 Document exporting completed!
